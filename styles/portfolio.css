@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.color1{
+    color: #FD6E0A;
+}
+.btn-color1{
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+}
+.btn-color2{
+    color: #FD6E0A;
+    background-color: transparent;
+    border: 1px solid #FD6E0A; 
+}
+.btn-default {
+    height: 64px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px 20px;
+    font-weight: 700;
+    transition: 2s;
+    transform-origin-X:left ;
+}
+.btn-default:hover{
+    background-color: black;
+    transform-style:flat;
+}
+.mr{
+    margin-right: 10px;
+}
+.ml{
+    margin-left: 10px;
+}
+.background{
+    background-color: #FFF8F3;
+}
+
+
+/* header bar css */
+
+header{
+   background-color :#FFF8F3;
+   background-image: url(../images/header_bg.png) , url(../images/developer.png);
+   background-repeat: no-repeat;
+   background-position: bottom right , left;
+   padding: 20px 0 0 ;
+
+}
+
+/* nav section */
+
+
+
+nav {
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+    padding: 10px 15px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FD6E0A;
+}
+
+/* slider section */
+.slider{
+    
+    margin:0 0 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.slider-box{
+    width: 580px;
+    text-align: left;
+}
+
+.slider-box h1{
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+.slider-box h4{
+
+    font-size: 30px;
+    font-weight: 700;
+}
+.slider-box p{
+    margin: 20px 0;
+    font-size: 17px;
+    color: #757575;
+}
+
+/* About section */
+.about{
+    margin: 50px 15%;
+    background-color: #FFF8F3;
+    padding: 100px 50px;
+    text-align: center;
+}
+.A-title{font-size: 35px;
+text-decoration: underline;}
+.A-description{
+    font-size: 18px;
+    color: gray;
+    margin: 20px auto 40px;
+    text-align: justify;
+    padding: 10px 70px;
+}
+.A-info{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.A-info li em{
+    font-size: 18px;
+
+}
+.A-info li h4{
+   font-size: 20px;
+   margin: 20px 0;
+}
+
+
+
+
