@@ -22,12 +22,16 @@
     font-size: 25px;
     padding: 10px 20px;
     font-weight: 700;
-    transition: 2s;
-    transform-origin-X:left ;
+    transition: 1s;
+    /* transform-origin-X:left ; */
 }
 .btn-default:hover{
     background-color: black;
-    transform-style:flat;
+    transform-origin: left;
+}
+.btn-default:focus{
+    background-color: #757575;
+    border:1px solid aqua;
 }
 .mr{
     margin-right: 10px;
@@ -43,7 +47,7 @@
 /* header bar css */
 
 header{
-   background-color :#FFF8F3;
+   background-color :#ffeada;
    background-image: url(../images/header_bg.png) , url(../images/developer.png);
    background-repeat: no-repeat;
    background-position: bottom right , left;
@@ -118,20 +122,24 @@ nav ul li a{
 /* About section */
 .about{
     margin: 50px 15%;
-    background-color: #FFF8F3;
+    background-color: #ffeada;
     padding: 100px 50px;
     text-align: center;
 }
-.A-title{font-size: 35px;
-text-decoration: underline;}
-.A-description{
+.s-title{
+
+font-size: 45px;
+
+color: #FD6E0A;
+}
+.s-description{
     font-size: 18px;
     color: gray;
-    margin: 20px auto 40px;
+    margin: 20px auto 100px;
     text-align: justify;
     padding: 10px 70px;
 }
-.A-info{
+.s-info{
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -145,6 +153,130 @@ text-decoration: underline;}
    margin: 20px 0;
 }
 
+/* What i Do */
+
+.what-i-do{
+    text-align: center;
+    margin: 120px auto 70px;
+}
+.what-i-do > p{
+    text-align: center;
+    margin: 30px 300px;
+}
+
+/* What i do>>>>>>>skills-container */
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1140px;
+    margin: auto;
+}
+.skills-container .skill {
+    margin: 36px 0;
+    padding: 30px 20px;
+    text-align: left;
+    width: 260px;
+    height: 446px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: overlay;
+}
+.skills-container .skill img{
+    display: block;
+}
+.skills-container .skill .skill-title{
+    margin: 28px 0;
+}
+.skills-container .skill .skill-description{
+    line-height: 2rem;
+
+}
 
 
+/* a summary if my resume */
+.resume{
+    margin: 50px 15%;
+    text-align: center;
+    /* width: 1140px; */
+}
+.resume .reume-section{
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    
+}
+.resume .reume-section .resume-box {
+    border-bottom: 2px solid #c5c5c5;
+    padding:35px 25px;
+}
+.resume .reume-section .resume-box h2{
+   
+font-size: 30px;
+   
+margin: 10px 0;
+}
+.resume .reume-section .resume-box h4{
+   
+font-size: 24px;
+   
+margin-bottom: 10px;
+}
+.resume .reume-section .resume-box em{
+  
+font-size: 19px;
+}
+.resume .reume-section .resume-box p{
+  
+font-size: 16px;
+  
+color: grey;
+  
+margin: 12px 0;
+}
+.border-none{
+    border: none !important;
+}
+
+
+/* contact section */
+
+.contact{
+    display: flex;
+    gap: 115px;
+    align-items: flex-start;
+    padding: 130px 15%;
+}
+.contact .connect{}
+.contact .connect h1{
+    color: #FD6E0A;
+}
+
+.contact .connect p{
+    font-size: 18px;
+    color: gray;
+    margin: 28px 0;
+}
+.contact .connect a{
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+.contact .form{}
+#name, #email {
+    width: 300px;
+    height: 25px;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border: none;
+    
+}
+#textarea{
+    margin: 20px 0;
+    padding: 16px;
+    border: none;
+    width: 318px;
+    height: 100px;
+}
 
