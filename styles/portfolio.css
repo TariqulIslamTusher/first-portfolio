@@ -224,16 +224,16 @@ font-size: 24px;
 margin-bottom: 10px;
 }
 .resume .reume-section .resume-box em{
-  
+  color: rgb(32, 215, 215);
 font-size: 19px;
 }
 .resume .reume-section .resume-box p{
-  
-font-size: 16px;
-  
-color: grey;
-  
-margin: 12px 0;
+    
+    font-size: 16px;
+    
+    color: grey;
+    
+    margin: 12px 0;
 }
 .border-none{
     border: none !important;
@@ -261,6 +261,7 @@ margin: 12px 0;
 .contact .connect a{
     font-size: 20px;
     margin-right: 20px;
+   
     
 }
 .contact .form{}
